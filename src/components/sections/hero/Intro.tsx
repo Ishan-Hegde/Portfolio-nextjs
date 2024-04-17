@@ -32,7 +32,7 @@ const Intro: FC<IntroProps> = ({}) => {
                     </div>
                 </div>
                 <div className="text-secondary text-sm mt-2 md:mt-0  max-w-[500px]">
-                    Join me, Neeraj Walia, aka EZ, on an exciting coding
+                    Join me, Ishan Hegde, aka EZ, on an exciting coding
                     journey! Together, we&apos;ll delve into a world of
                     knowledge, discover innovative ideas, embrace quick tips,
                     master clever tricks, conquer coding challenges, implement

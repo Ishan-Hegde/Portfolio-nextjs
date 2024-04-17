@@ -7,8 +7,8 @@ import { ContactFormProvider, MenuProvider } from '@/components/Provider';
 import { Toaster } from 'react-hot-toast';
 
 export const metadata: Metadata = {
-    title: 'Ez Snippet',
-    description: 'Learning made EZ',
+    title: 'Ishan Hegde',
+    description: 'Aspiring App Dev',
 };
 
 export default function RootLayout({
