@@ -20,9 +20,9 @@ import {
 import List from '../ui/List';
 import { useMenu } from '../Provider';
 
-interface MenuProps {}
+interface MenuProps { }
 
-const Menu: FC<MenuProps> = ({}) => {
+const Menu: FC<MenuProps> = ({ }) => {
   const { showMenuVisibility } = useMenu();
   return (
     <div
@@ -55,29 +55,29 @@ const Menu: FC<MenuProps> = ({}) => {
       >
         <Instagram color="#b5179e" /> Instagram
       </List>
-      <List target="_blank" link="https://github.com/nwaliaez" effect="slideUp">
-        <Github color="#2a9d8f" /> Github
+      <List target="_blank" link="https://github.com/Ishan-Hegde" effect="slideUp">
+        <Github color="#2a9d8f" /> GitHub
       </List>
-      <List
+      {/* <List
         target="_blank"
         link="https://www.youtube.com/channel/UCWYz4W6m1toUP7x0M1od3fA"
         effect="slideUp"
       >
         <Youtube color="#e63946" /> Youtube
+      </List> */}
+      <List
+        target="_blank"
+        link="https://stackoverflow.com/users/22511113/ishan-hegde"
+        effect="slideUp"
+      >
+        <Layers color="#f77f00" /> Stack Overflow
       </List>
       <List
         target="_blank"
-        link="https://stackoverflow.com/users/20331641/neeraj-walia"
+        link="https://www.linkedin.com/in/ishan-hegde-753947288/"
         effect="slideUp"
       >
-        <Layers color="#f77f00" /> Stack overflow
-      </List>
-      <List
-        target="_blank"
-        link="https://www.linkedin.com/in/ezSnippet/"
-        effect="slideUp"
-      >
-        <Linkedin color="#0277b5" /> Linkedin
+        <Linkedin color="#0277b5" /> LinkedIn
       </List>
 
       {/* List 3 */}
@@ -124,6 +124,15 @@ const Menu: FC<MenuProps> = ({}) => {
             >
                 <Scissors /> Ex Clone
             </List> */}
+
+      <div className="mt-5">Links</div>
+      <List
+        target="_blank"
+        link="https://drive.google.com/drive/folders/1y-czppmBmvYFJ5sHursWwR1-nCktCi-f"
+        effect="slideUp"
+      >
+        <Code color="#2a9d8f" /> Resume
+      </List>
     </div>
   );
 };
